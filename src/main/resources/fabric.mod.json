@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "recipes_plus",
+  "version": "1.0.0",
+  "name": "Recipes+",
+  "authors": [
+    "sxcmx, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "wfb.fabricrecipes.RecipesPlusMod"
+    ],
+    "client": [
+      "wfb.fabricrecipes.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}
